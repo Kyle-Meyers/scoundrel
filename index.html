@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Card Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="table">
+    <div class="top-row">
+      <div class="deck" id="deck">Deck</div>
+      <div class="room-area">
+        <div class="room" id="room"></div>
+        <div class="button-row">
+            <button id="skipBtn" class="event-button">Skip Room</button>
+            <button id="discardBtn" class="event-button">Discard Weapon</button>
+        </div>
+      </div>
+    </div>
+    <div class="bottom-row">
+      <div class="weapon-area">
+        <div id="weapon">Weapon</div>
+        <div id="stack"></div>
+      </div>
+      <div id="log"></div>
+      <div class="health" id="health">❤️ 20</div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
