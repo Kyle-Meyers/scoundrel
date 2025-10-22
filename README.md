@@ -7,3 +7,4 @@ Implementation of the card game "scoundrel"
 * Allow to fight bare-handed whenever you want, instead of only when it can't stack
 * You can't skip a room once you started playing it
 * Allow to discard hearts whenever, just add a warning
+* Fix game over logic (make everything unclickable and greyed out)
